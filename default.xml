@@ -5,20 +5,22 @@
        	fetch="https://android.googlesource.com/" />
     	 
   <remote name="gummy"
-       	fetch="git://github.com/teamgummy/" />
+       	fetch="https://github.com/teamgummy/" />
       	 
   <remote name="cm"
-       	fetch="git://github.com/CyanogenMod/" />
+       	fetch="https://github.com/CyanogenMod/" />
 
   <remote name="github"
-        fetch="git://github.com/" /> 
+        fetch="https://github.com/" /> 
 
   <remote name="kejar31"
-        fetch="git://github.com/kejar31/" />
+        fetch="https://github.com/kejar31/" />
 
-  <default revision="refs/tags/android-4.0.4_r1.1"
-       	remote="aosp"
-       	sync-j="4" />
+  <!--><default revision="refs/tags/android-4.0.4_r1.1"
+       	remote="aosp" -->
+   <default revision="ics"
+       	remote="cm"
+   	sync-j="24" />
 
   <project path="build" name="android_build" revision="ics" remote="gummy">
 	<copyfile src="core/root.mk" dest="Makefile" />
