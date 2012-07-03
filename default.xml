@@ -36,6 +36,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/sample" name="device/sample" />
+  <project path="device/samsung/epic4gtouch" name="EpicAOSP/android_device_samsung_epic4gtouch" remote="github" revision="ics" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -257,7 +258,7 @@
 
   <project path="vendor/Gummy" name="EpicAOSP/vendor_Gummy" remote="github" revision="master" />
   <project path="vendor/Gummy/bot" name="pseudo_buildbot" remote="gummy" revision="ics" />
-
+  <project path="vendor/samsung" name="chris41g/proprietary_vendor_samsung" remote="github" revision="ics" />
   <project path="external/busybox" name="android_external_busybox.git" remote="cm" revision="ics" />
   <project path="system/su" name="system_su" remote="gummy" revision="master" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="ics" />
@@ -272,7 +273,7 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="ics" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="ics" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="ics" />
-
+  <project path="e4gttools" name="EpicAOSP/e4gttools" remote="github" revision="gummy" />
   
   <!-- inline kernels -->
   <project path="kernel/samsung/smdk4210" name="CyanogenMod/android_kernel_samsung_smdk4210" remote="github" revision="ics" />
