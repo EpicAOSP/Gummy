@@ -255,7 +255,7 @@
   <project path="system/vold" name="android_system_vold" remote="cm" revision="ics" />
  
 
-  <project path="vendor/Gummy" name="EpicAOKP/vendor_Gummy" remote="github" revision="master" />
+  <project path="vendor/Gummy" name="EpicAOSP/vendor_Gummy" remote="github" revision="master" />
   <project path="vendor/Gummy/bot" name="pseudo_buildbot" remote="gummy" revision="ics" />
 
   <project path="external/busybox" name="android_external_busybox.git" remote="cm" revision="ics" />
