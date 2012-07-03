@@ -1,2 +1,2 @@
-$ repo init -u https://github.com/teamgummy/platform_manifest.git -b master
-$ repo sync
+$ repo init -u https://github.com/EpicAOSP/Gummy -b master
+$ repo sync -jX
